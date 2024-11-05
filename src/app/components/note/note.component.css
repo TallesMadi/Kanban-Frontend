@@ -1,0 +1,26 @@
+.box {
+    width: 15em;
+}
+
+.note {
+    margin: 0 3px;
+    padding: 0;
+    height: fit-content;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 8em; 
+}
+
+button {
+    width: 40%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 140);
+    transition: color 0.1s ease, transform 0.2s ease;
+}
+

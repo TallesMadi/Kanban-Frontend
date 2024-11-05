@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    background-color: rgb(255, 255, 210);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+a {
+    background-color: transparent;
+    color: #2867FA;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    color: #7028FA;
+    text-decoration: underline;
+}
